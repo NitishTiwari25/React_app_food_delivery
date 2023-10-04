@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'   //it is important
+// import Restaurant from './component/Restaurant';
+///import Todo  from './component/todoproject/todo';
 
-function App() {
+import { Temp } from './component/weather/temp';
+
+ const App = () => {        // one function and its one return type
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Temp/>
+        {/* <Todo/> */}
+    {/* <Restaurant/> */}
+    </>
+  )
 }
-
-export default App;
+export default App;            //export compulsory
