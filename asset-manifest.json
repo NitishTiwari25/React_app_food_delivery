@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_app_food_delivery/static/css/main.67c35d8e.css",
+    "main.js": "/React_app_food_delivery/static/js/main.7cf72510.js",
+    "index.html": "/React_app_food_delivery/index.html",
+    "main.67c35d8e.css.map": "/React_app_food_delivery/static/css/main.67c35d8e.css.map",
+    "main.7cf72510.js.map": "/React_app_food_delivery/static/js/main.7cf72510.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c35d8e.css",
+    "static/js/main.7cf72510.js"
+  ]
+}
